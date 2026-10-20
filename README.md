@@ -27,19 +27,19 @@ Built with **HTML, CSS, and vanilla JavaScript**, JulEvents provides a simple wa
 
 ### Homepage — Hebrew
 
-![JulEvents homepage in Hebrew](images/Screenshots/Hebrew.png)
+![JulEvents homepage in Hebrew](images/Screenshots/Screen1.png)
 
 ### About Section
 
-![JulEvents About section](images/Screenshots/Screen1.png)
+![JulEvents About section](images/Screenshots/Screen2.png)
 
 ### Interactive Gallery
 
-![JulEvents gallery carousel](images/Screenshots/Screen 2.png)
+![JulEvents gallery carousel](images/Screenshots/Screen3.png)
 
 ### Event Booking Form
 
-![JulEvents booking form](images/Screenshots/Screen 4.png)
+![JulEvents booking form](images/Screenshots/Screen4.png)
 
 ## 🛠️ Tech Stack
 
