@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7d6e0" />
+  <meta name="description" content="JulEvents — thoughtful beach and park celebrations for couples and families." />
+  <title>JulEvents | Moments Made Beautiful</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Tajawal:wght@400;500;700&family=Heebo:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+ <header class="site-header">
+  <div class="container header-inner">
+
+    <!-- Company Logo and Name -->
+ <a href="#home" class="brand">
+
+    <img
+        src="images/logo.jpg"
+        alt="JulEvents Logo"
+        class="brand-logo"
+        style="width: 45px; height: 45px; max-width: 45px; max-height: 45px; object-fit: cover; border-radius: 50%;"
+    >
+
+    <span class="brand-name">
+        Jul<span>Events</span>
+    </span>
+
+</a>
+    <!-- Mobile Menu -->
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="siteNav"
+    >
+      ☰
+    </button>
+
+    <!-- Navigation -->
+    <nav id="siteNav" class="site-nav" aria-label="Main navigation">
+      <a href="#home" data-i18n="navHome">Home</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#experiences" data-i18n="navExperiences">Experiences</a>
+      <a href="#gallery" data-i18n="navGallery">Gallery</a>
+      <a href="#booking" class="nav-book" data-i18n="navBook">Book an Event</a>
+    </nav>
+
+    <!-- Language Selector -->
+    <label class="language-wrap">
+      <span class="sr-only">Language</span>
+      <select id="languageSelect" aria-label="Choose language">
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+        <option value="he">עברית</option>
+      </select>
+    </label>
+
+  </div>
+</header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <img class="hero-photo" src="images/image8.jpeg" alt="A romantic picnic setup beside the water" fetchpriority="high" />
+      <div class="container hero-content">
+        <p class="eyebrow hero-eyebrow" data-i18n="heroEyebrow">THE ART OF CELEBRATING</p>
+        <h1 data-i18n="heroTitle">Little moments.<br />Beautiful memories.</h1>
+        <p class="hero-description" data-i18n="heroDescription">Dreamy beach picnics, romantic surprises, and joyful
+          family celebrations — styled with love, just for you.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#booking" data-i18n="heroCta">Plan Your
+            Moment</a><a class="button button-light" href="#gallery" data-i18n="heroSecondary">Explore Our Gallery</a>
+        </div>
+      </div>
+      <div class="hero-badge" data-hero-badge>Made with love ♡</div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="container intro-grid">
+        <div class="intro-visual"><img src="images/image1.jpeg" alt="Beautifully decorated outdoor celebration"
+            loading="lazy" /><span class="visual-sticker">✿ &nbsp; <bdi dir="ltr">JulEvents</bdi></span></div>
+        <div class="intro-copy">
+          <h2 data-i18n="aboutTitle">Every celebration deserves a little magic.</h2>
+          <p data-i18n="aboutBody">At JulEvents, we believe the most meaningful memories are made when people come
+            together. We create charming outdoor experiences for couples and families, bringing thoughtful details,
+            beautiful styling, and a personal touch to every occasion.</p>
+          <p data-i18n="aboutBody2">From sunset dates on the beach to cozy celebrations in the park, we help turn your
+            ideas into moments worth remembering.</p><a href="#booking" class="text-link" data-i18n="aboutLink">Let's
+            make something beautiful →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experiences" id="experiences">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="experienceEyebrow">MADE FOR YOUR MOMENTS</p>
+          <h2 data-i18n="experienceTitle">Choose your kind of magic</h2>
+          <p data-i18n="experienceSubtitle">Personalized setups designed for the people and moments you love.</p>
+        </div>
+        <div class="cards">
+          <article class="experience-card"><img src="images/image3.jpeg" alt="Golden sunset at the beach"
+              loading="lazy" />
+            <div class="card-copy"><span>01 / ♡</span>
+              <h3 data-i18n="card1Title">Romantic Dates</h3>
+              <p data-i18n="card1Body">Intimate sunset setups and unforgettable moments for two.</p><a href="#booking"
+                data-event="romantic" class="card-link" data-i18n="cardCta">Plan this experience →</a>
+            </div>
+          </article>
+          <article class="experience-card"><img src="images/image4.jpeg"
+              alt="Outdoor celebration with friends and family" loading="lazy" />
+            <div class="card-copy"><span>02 / ✿</span>
+              <h3 data-i18n="card2Title">Family Picnics</h3>
+              <p data-i18n="card2Body">Relaxed, playful outdoor gatherings made for togetherness.</p><a href="#booking"
+                data-event="family" class="card-link" data-i18n="cardCta">Plan this experience →</a>
+            </div>
+          </article>
+          <article class="experience-card"><img src="images/image2.jpeg"
+              alt="Romantic wedding-inspired flower arrangements" loading="lazy" />
+            <div class="card-copy"><span>03 / ✨</span>
+              <h3 data-i18n="card3Title">Special Occasions</h3>
+              <p data-i18n="card3Body">Proposals, birthdays, anniversaries, and sweet surprises.</p><a href="#booking"
+                data-event="special" class="card-link" data-i18n="cardCta">Plan this experience →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<section class="section gallery" id="gallery">
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="eyebrow" data-i18n="galleryEyebrow">
+                A LITTLE INSPIRATION
+            </p>
+
+            <h2 data-i18n="galleryTitle">
+                Moments we love
+            </h2>
+
+            <p data-i18n="gallerySubtitle">
+                A glimpse of the feeling we love to create.
+            </p>
+        </div>
+
+        <!------------------------------------------------------------ Gallery Slider ---------------------------------------------------------------------------------->
+        <div class="gallery-slider">
+
+            <div class="gallery-slides">
+                <img src="images/image5.jpeg"
+                     class="gallery-slide active"
+                     alt="Elegant event table setting">
+
+                <img src="images/image6.jpeg"
+                     class="gallery-slide"
+                     alt="Pink flowers">
+
+                <img src="images/image7.jpeg"
+                     class="gallery-slide"
+                     alt="Outdoor picnic setting">
+
+                <img src="images/image14.jpeg"
+                     class="gallery-slide"
+                     alt="Family picnic setup with blankets and balloons">
+
+                <img src="images/image15.jpeg"
+                     class="gallery-slide"
+                     alt="Romantic picnic setup with flowers and candles">
+
+                <img src="images/image16.jpeg"
+                     class="gallery-slide"
+                     alt="Outdoor picnic setup with blankets and pillows">
+
+                <img src ="images/image13.jpeg"
+                     class="gallery-slide"
+                     alt="Romantic picnic setup with flowers and candles">
+
+                <img src="images/image12.jpeg"
+                     class="gallery-slide"
+                     alt="Outdoor picnic setup with blankets and pillows">
+
+
+              
+            </div>
+
+            <!-- Previous arrow -->
+            <button type="button" class="gallery-prev"
+                    aria-label="Previous image">
+                &#10094;
+            </button>
+
+            <!-- Next arrow -->
+            <button type="button" class="gallery-next"
+                    aria-label="Next image">
+                &#10095;
+            </button>
+
+        </div>
+
+        <!-- Navigation dots -->
+        <div class="gallery-dots"></div>
+
+    </div>
+</section>
+
+    <section class="section booking" id="booking">
+      <div class="container booking-grid">
+        <div class="booking-intro">
+          <p class="eyebrow" data-i18n="bookingEyebrow">LET'S CELEBRATE</p>
+          <h2 data-i18n="bookingTitle">Tell us about your dream event.</h2>
+          <p data-i18n="bookingBody">Share a few details and we'll help bring your vision to life. Your request will
+            open in WhatsApp so you can send it directly to JulEvents.</p>
+          <div class="booking-note"><span>♡</span>
+            <p data-i18n="bookingNote">Every celebration is unique. Dates and details are confirmed personally after we
+              receive your request.</p>
+          </div>
+        </div>
+        <form id="bookingForm" class="booking-form">
+          <div class="form-row"><label><span data-i18n="fieldName">Your name</span><input id="name" name="name" required
+                maxlength="100" autocomplete="name" placeholder="Your full name"
+                data-placeholder="namePlaceholder" /></label><label><span data-i18n="fieldPhone">Phone
+                number</span><input id="phone" name="phone" type="tel" required maxlength="25" autocomplete="tel"
+                placeholder="Your phone number" data-placeholder="phonePlaceholder" /></label></div>
+          <div class="form-row"><label><span data-i18n="fieldEvent">Event type</span><select id="eventType"
+                name="eventType" required>
+                <option value="" data-i18n="eventPlaceholder">Choose an experience</option>
+                <option value="romantic" data-i18n="eventRomantic">Romantic date</option>
+                <option value="family" data-i18n="eventFamily">Family picnic</option>
+                <option value="special" data-i18n="eventSpecial">Special occasion</option>
+                <option value="other" data-i18n="eventOther">Something else</option>
+              </select></label><label><span data-i18n="fieldGuests">Number of guests</span><input id="guests"
+                name="guests" type="number" min="1" max="500" required placeholder="e.g. 2"
+                data-placeholder="guestsPlaceholder" /></label></div>
+          <div class="form-row"><label><span data-i18n="fieldDate">Preferred date</span><div class="date-picker">
+                <input id="date" name="date" type="text" readonly required aria-haspopup="dialog"
+                  aria-expanded="false" aria-controls="dateCalendar" />
+                <div id="dateCalendar" class="date-calendar" role="dialog" aria-label="Choose a date" hidden>
+                  <div class="calendar-header"><button type="button" class="calendar-prev" aria-label="Previous month">‹</button>
+                    <strong class="calendar-title"></strong><button type="button" class="calendar-next" aria-label="Next month">›</button></div>
+                  <div class="calendar-weekdays" aria-hidden="true"></div><div class="calendar-days"></div>
+                </div></div></label><label><span data-i18n="fieldLocation">Preferred location</span><select
+                id="location" name="location" required>
+                <option value="" data-i18n="locationPlaceholder">Choose a location</option>
+                <option value="beach" data-i18n="locationBeach">Beach</option>
+                <option value="park" data-i18n="locationPark">Park</option>
+                <option value="flexible" data-i18n="locationFlexible">Open to suggestions</option>
+              </select></label></div><label><span data-i18n="fieldNotes">Tell us more (optional)</span><textarea
+              id="notes" name="notes" rows="4" maxlength="1000" placeholder="Your ideas, occasion, preferred time..."
+              data-placeholder="notesPlaceholder"></textarea></label>
+          <fieldset class="booking-addons">
+            <legend data-addon-i18n="title">Make it extra special</legend>
+            <p class="addons-description" data-addon-i18n="description">Optional treats to add to your celebration:</p>
+            <label class="addon-option">
+              <input type="checkbox" name="addons" value="cake" data-price="180">
+              <img class="addon-image" src="images/cake.jpeg" alt="Celebration cake" loading="lazy">
+              <span data-addon-i18n="cake">Celebration cake — ₪180</span>
+            </label>
+          </fieldset>
+          <button type="submit"
+            class="button button-primary submit-button" data-i18n="submitBooking">Send Request via WhatsApp ♡</button>
+          <p class="form-help" id="formStatus" role="status" aria-live="polite" data-i18n="formHelp">Submitting opens
+            WhatsApp with a prepared message. You must press Send there to deliver your request.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><a href="#home" class="brand"><span class="brand-flower">✿</span> <span class="brand-name">Jul<span>Events</span></span></a>
+        <p data-i18n="footerTagline">Thoughtful moments, beautifully made.</p>
+      </div>
+      <div class="footer-links"><a href="#about" data-i18n="navAbout">About</a><a href="#gallery"
+          data-i18n="navGallery">Gallery</a><a href="#booking" data-i18n="navBook">Book an Event</a></div>
+      <p>© <span id="year"></span> <bdi dir="ltr">JulEvents</bdi></p>
+    </div>
+  </footer>
+</body>
+
+</html>
