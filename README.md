@@ -23,7 +23,7 @@ Built with **HTML, CSS, and vanilla JavaScript**, JulEvents provides a simple wa
 
 ### Homepage — Arabic
 
-![JulEvents homepage in Arabic](images/screenshots/Arabic.png)
+![JulEvents homepage in Arabic](images/Screenshots/Arabic.png)
 
 ### Homepage — Hebrew
 
