@@ -61,7 +61,7 @@ No build step or backend server is required.
 
 ## 📱 How Booking Works
 
-Visitors fill out the booking inquiry form with their event information. When they submit it, the website opens WhatsApp with a prepared message containing those details. **The visitor must confirm and send the message in WhatsApp**; the website does not automatically submit or store bookings.
+Visitors fill out the booking inquiry form with their event information. When they submit it, the website opens WhatsApp with a prepared message containing those details. **The visitor must confirm and send the message in WhatsApp**;.
 
 ## 🌍 Supported Languages
 
